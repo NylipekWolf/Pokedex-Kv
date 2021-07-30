@@ -2,7 +2,7 @@ const gestPokemonUrl = id => `https://pokeapi.co/api/v2/pokemon/${id}`
 
 const fetchpokemon = () => {
 
-    const generatePokemonPromise = () => {}
+    const generatePokemonPromise = () => Array(150).fill()
     const pokemonPromises = []
 
     for (let i = 1; i <= 150; i++) {
